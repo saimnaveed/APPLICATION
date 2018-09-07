@@ -1,4 +1,3 @@
-
 l = [1540, 1997, 2000,2100,1540];
 size=len(l)
 count = 0
@@ -14,6 +13,5 @@ while(i < size):
                 size=size-1
         j=j+1
     i=i+1
-
 size=len(l)
 print(l)
