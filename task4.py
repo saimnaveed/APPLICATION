@@ -1,4 +1,5 @@
 def remove_duplication(l):
+    """Removes those stringd which are repeated"""
     size=len(l)
     i=j=count = 0
     while(i < size):
