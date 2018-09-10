@@ -1,15 +1,13 @@
-a='add'
-length=(len(a))
-print(length)
-i=0
+initial_word='adding'
+length=(len(initial_word))
 if(length>3):
     for i in range (length):
 
-      if a[length-3:length]=='ing':
-           b=a+'ly'
+      if initial_word[length-3:length]=='ing':
+           final_word=initial_word+'ly'
       else:
-           b=a+'ing'
+           final_word=initial_word+'ing'
       break
 else:
-    b=a
-print(b)
+    final_word=initial_word
+print(final_word)
