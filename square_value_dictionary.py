@@ -1,5 +1,5 @@
 def squaring():
-    """Forming a dictionary in which all values are of keys"""
+    """Forming a dictionary in which all values are square square_value_dictionaryof keys"""
     dicts = {}
     for i in range(5):
       dicts[i] = i*i
